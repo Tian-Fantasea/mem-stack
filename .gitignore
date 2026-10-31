@@ -1,0 +1,4 @@
+.env
+*.log
+embed/models/
+mem0.env

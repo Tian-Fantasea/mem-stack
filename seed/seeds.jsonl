@@ -1,0 +1,3 @@
+{"scope":"pkg/nginx","memory":"nginx CVE 修复优先确认上游 stable 对应 tag，backport 时需重打 mod_http2 系列本地补丁","cve":"CVE-2025-1234","type":"historical_seed"}
+{"scope":"pkg/openssl","memory":"openssl 类 CVE 影响性判定要看分支版本号区间声明，spec Release 字段勿动，走 PatchFlow 白名单","cve":"CVE-2025-0001","type":"historical_seed"}
+{"scope":"pkg/curl","memory":"curl 小版本 CVE 多数走版本升级而非打补丁，注意 vendor 补丁与 gnutls 编译选项冲突","cve":"CVE-2024-35225","type":"historical_seed"}
